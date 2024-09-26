@@ -12,6 +12,8 @@ TikTok users can submit reports flagging videos and comments that contain claims
 ## Data Understanding
 The data used for this project is a synthetic dataset created by TikTok for the Google Advanced Data Analytics Professional Certificate Course. It consists of 19,382 rows and 12 columns, where each row represents a video, and the columns capture various features like user engagement data and transcriptions. There were 298 rows with missing values, which were removed since they accounted for a small portion of the data. No duplicate rows were found, and the dataset's class balance for claims and opinions was approximately equal, so neither upsampling nor downsampling was necessary. Unnecessary columns such as video ID were dropped, and categorical variables (e.g., claim_status, author_ban_status, and verified_status) were encoded as numerical values. Feature engineering included the creation of a 'text_length' feature based on the 'video_transcripted_text' column to quantify the length of each video transcript.
 
+## [Python Workbook](https://github.com/roenseed/TikTok-Project/blob/main/TikTok%20project5_Machine%20Learning.ipynb)
+
 ## Modeling and Evaluation
 A random forest model with 75 trees was selected as the best-performing model to classify whether a video contains a claim or an opinion. The bar plot below highlights that user engagement metrics—views, likes, shares, downloads, and comments—were among the most important features for predicting claim status, in line with the earlier exploratory data analysis (EDA) findings.
 
