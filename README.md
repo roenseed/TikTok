@@ -25,3 +25,9 @@ The confusion matrix below shows that, from the 3,817 rows of test data, the mod
 
 ## Conclusion
 The model successfully classified videos by claim status, with user engagement features being the most predictive. Initial data inspection and EDA revealed strong correlations between these engagement metrics and claim status. Statistical testing and regression analysis, detailed in the repository's notebooks, provided additional insights. While the 'video_transcription_text' feature was excluded from the final model due to challenges in encoding it, future iterations could explore using natural language processing techniques, such as CountVectorizer, to transform this feature into a format that could enhance the model's performance.
+
+## AUTHOR
+- **Charoen Kasetruengphol (Roen)**
+---
+
+This project is part of the Google Data Advanced Analytics Professional Certificate and aims to provide practical experience in Machine Learning, Model Prediction, EDA, and Data Mining.
