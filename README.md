@@ -1,6 +1,6 @@
 # TikTok-Claims-Project
 
-<img src="data_viz/TikTok2.png" alt="Tiktok" width="180" height="180">
+<img src="data_viz/TikTok2.png" alt="Tiktok" width="160" height="160">
 
 ## Project Title
 Classifying TikTok Videos' Claim Status Using Machine Learning Models
